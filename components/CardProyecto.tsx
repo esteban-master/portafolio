@@ -43,6 +43,7 @@ export const CardProyecto = ({ proyecto }: { proyecto: Proyecto }) => {
 };
 
 const Tecnologias = ({ tecnologias }: any) => {
+  console.log(tecnologias);
   return (
     <div className="flex flex-wrap my-3">
       {tecnologias.map((tec: string, i: number) => (
