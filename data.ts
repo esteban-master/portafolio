@@ -2,22 +2,21 @@ export const tecnologiasData: TecnologiasData = {
   react: {
     name: "React",
     link: "https://reactjs.org/",
-    color: "bg-blue-500",
   },
   "react-query": {
     name: "React-Query",
-    color: "bg-pink-500",
+
     link: "https://react-query.tanstack.com/",
   },
-  nestjs: { name: "NestJs", color: "bg-red-500", link: "https://nestjs.com/" },
+  nestjs: { name: "NestJs", link: "https://nestjs.com/" },
   tailwind: {
     name: "Tailwind",
-    color: "bg-teal-500",
+
     link: "https://tailwindcss.com/",
   },
   redux: {
     name: "Redux",
-    color: "bg-purple-500",
+
     link: "https://redux.js.org/",
   },
 };
@@ -26,7 +25,6 @@ export interface TecnologiasData {
   [key: string]: {
     name: string;
     link: string;
-    color: string;
   };
 }
 

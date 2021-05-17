@@ -12,8 +12,8 @@ export const CardProyecto = ({ proyecto }: { proyecto: Proyecto }) => {
           />
         </a>
       </div>
-      <div className="p-5 h-0 flex-1 flex flex-col ">
-        <div className="h-0 flex-1">
+      <div className="p-5  flex-1 flex flex-col ">
+        <div className=" flex-1">
           <a
             className="block text-xl font-bold hover:underline "
             href={proyecto.link}
@@ -51,7 +51,7 @@ const Tecnologias = ({ tecnologias }: any) => {
           target="_blank"
           rel="noopener noreferrer"
           href={tecnologiasData[tec].link}
-          className={`${tecnologiasData[tec].color} block mr-1 my-1 text-white  text-xs font-semibold tracking-wide py-0.5 px-1 rounded-md`}
+          className={`${tec} block mr-1 my-1 text-white  text-xs font-semibold tracking-wide py-0.5 px-1 rounded-md`}
         >
           {tecnologiasData[tec].name}
         </a>
